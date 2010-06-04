@@ -4,5 +4,27 @@
 山本和彦
 }
 
--[はじめに beg.html]
--[リスト list.html]
++[はじめに beg.html]
++[リスト list.html]
++代数データ型
++型クラスと多相性
++APIのひみつ
++型クラスMonad
++Identity Monad
++Maybe Monad
++リスト Monad
++IO Monad
++Reader Monad
++Writer Monad
++State Monad
++型クラス Alternative と MonadPlus
++パーサー
++Parsec 1
++Parsec 2
++Applicative スタイル
++共通の API の効用
++Monad変換子
+
+
+
+

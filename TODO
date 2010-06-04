@@ -20,7 +20,7 @@
 		http://d.hatena.ne.jp/kazu-yamamoto/20090204/1233732939
 	リストの秘密 []
 
-* 型クラスと多層性
+* 型クラスと多相性
 	Bool, Maybe ...
 	Num ...
 		http://d.hatena.ne.jp/kazu-yamamoto/20091116/1258357568
@@ -28,7 +28,8 @@
 	多層性の話
 		http://d.hatena.ne.jp/kazu-yamamoto/20081024/1224819961
 
-* return, <*>, >>=
+* APIのひみつ
+	return, <*>, >>=
 	Functor 則
 	融合
 		fmap (g . h) = fmap g . fmap h
@@ -42,11 +43,11 @@
 
 	do の秘密
 		if の秘密
-	モナド則の秘密
+	Monad則の秘密
 		http://d.hatena.ne.jp/kazu-yamamoto/20090706/1246850844
 		f は関数だよ
 		http://d.hatena.ne.jp/kazu-yamamoto/20081203/1228288529
-	偽モナド
+	偽Monad
 		http://d.hatena.ne.jp/itto100pen/20090710
 		http://d.hatena.ne.jp/itto100pen/20090707
 	when と unless
@@ -57,13 +58,13 @@
 		http://d.hatena.ne.jp/kazu-yamamoto/20090918/1253243061
 		遅延 IO
 
-* Identity モナド
+* Identity Monad
 
-* Maybe モナド
+* Maybe Monad
 	do だとしっくり来ない
 	パターンガードだと Good
 
-* List モナド (リストがモナドだと言ったら驚くでしょうか？ モナドのすべて)
+* リスト Monad (リストがMonadだと言ったら驚くでしょうか？ Monadのすべて)
 	リスト内包表記
 	ガード
 		http://d.hatena.ne.jp/kazu-yamamoto/20090313/1236935179
@@ -75,7 +76,7 @@
 		Nondeterministic.hs
 
 * IO Monad
-	魔術的なモナド
+	魔術的なMonad
 	World
 		http://d.hatena.ne.jp/kazu-yamamoto/20080214/1202985197
 	ファーストクラスとしての IO
@@ -88,16 +89,16 @@
 		http://d.hatena.ne.jp/kazu-yamamoto/20090107/1231318138
 	catch, throw, finally と EitherT
 
-* Reader モナド
+* Reader Monad
 	(->)
 	Reader Monad は B,S,K,W。
 	Haskell Curry が発見したのは B,C,K,W。
 
-* Writer モナド
+* Writer Monad
 	http://blog.livedoor.jp/nonowarn/?p=2
 	==>
 
-* State モナドの仲間たち
+* State Monad
   	仲間のまとめ
 	  	http://d.hatena.ne.jp/kazu-yamamoto/20080604/1212573964
 		http://d.hatena.ne.jp/kazu-yamamoto/20090826/1251258560
@@ -129,23 +130,23 @@ concatMap, [x]        (++), []
 	http://d.hatena.ne.jp/kazu-yamamoto/20081201/1228115457
 	(<|>) = mplus
 
-* Parsec1
+* Parsec 1
 	CVS とパースしてみる
 	式をパースしてみる
 
-* Parsec2
+* Parsec 2
 	シンボルテーブルを作ってみる
 
-* Applicative Style
+* Applicative スタイル
 	<$> と乱数
 	Parsec
 
-* 共通の API
+* 共通の API の効用
 	http://d.hatena.ne.jp/kazu-yamamoto/20100526/1274837088
 	MonadicParser.hs
 
 
-* モナド変換子
+* Monad変換子
 	[] と StateT の合成
 	IO と ReaderT の合成
 	Binary と StateT の合成
