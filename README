@@ -1,0 +1,12 @@
+モナド遊び
+                                                                山本和彦
+
+これは、Haskell の難関といわれるモナドの包括的な解説書であり、出版する
+ことを目指し書き進めています。コメント、質問、議論を歓迎します。それら
+すべては、github の Issues にお願いします。
+
+本文を読むのは、こちらから。
+	http://www.mew.org/~kazu/proj/monad/
+
+コメントは、こちらから。
+	http://github.com/kazu-yamamoto/monad/issues
