@@ -1,6 +1,6 @@
 # リスト
 
-<div class="right">
+<div align="right">
 「見方によっては関数プログラミングはリスト処理と同義である」<br />
 Jeremy Gibbons<br />
 関数プログラミングの楽しみ
