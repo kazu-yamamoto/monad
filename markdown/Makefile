@@ -4,3 +4,7 @@ all:
 	rm -f tmp.md
 	piki -m ../piki/beg.piki > beg.md
 	piki -m ../piki/list.piki > list.md
+	@for file in $(wildcard *.md); \
+        do \
+		cat footer >> $$file; \
+        done

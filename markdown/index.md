@@ -23,3 +23,6 @@
 * Applicative スタイル
 * 共通の API の効用
 * Monad変換子
+----------------------------------------------------------------
+
+著作権は山本和彦に属します。意見、質問、議論などは、[github の Issues](http://github.com/kazu-yamamoto/monad/issues)へ。
