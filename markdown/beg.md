@@ -74,3 +74,11 @@ Haskell のインタープリターとしては、ghci の利用を仮定しま�
 ----------------------------------------------------------------
 
 著作権は山本和彦に属します。意見、質問、議論などは、[github の Issues](http://github.com/kazu-yamamoto/monad/issues)へ。
+
+<style type="text/css">
+<!--
+.right {
+	text-align: right;
+	padding-right: 16px;
+}
+-->

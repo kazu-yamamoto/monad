@@ -1,5 +1,9 @@
 # モナド遊び
+
+<div class="right">
 山本和彦
+
+</div>
 
 これは、Haskell の難関といわれるモナドの包括的な解説書であり、出版することを目指し書き進めています。コメント、質問、議論を歓迎します。それらすべては、[github の Issues](http://github.com/kazu-yamamoto/monad/issues) にお願いします。
 
@@ -27,3 +31,11 @@
 ----------------------------------------------------------------
 
 著作権は山本和彦に属します。意見、質問、議論などは、[github の Issues](http://github.com/kazu-yamamoto/monad/issues)へ。
+
+<style type="text/css">
+<!--
+.right {
+	text-align: right;
+	padding-right: 16px;
+}
+-->
