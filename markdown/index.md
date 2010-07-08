@@ -37,5 +37,6 @@
 .right {
 	text-align: right;
 	padding-right: 32px;
+	padding-bottom: 32px;
 }
 -->

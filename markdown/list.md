@@ -159,5 +159,6 @@ concatMap 動作を段階を踏んで理解しましょう。まず、次のよ�
 .right {
 	text-align: right;
 	padding-right: 32px;
+	padding-bottom: 32px;
 }
 -->
