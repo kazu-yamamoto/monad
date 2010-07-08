@@ -5,6 +5,10 @@
 
 </div>
 
+
+<div class="clear">
+</div>
+
 これは、Haskell の難関といわれるモナドの包括的な解説書であり、出版することを目指し書き進めています。コメント、質問、議論を歓迎します。それらすべては、[github の Issues](http://github.com/kazu-yamamoto/monad/issues) にお願いします。
 
 1. [はじめに](beg.md)
@@ -35,8 +39,10 @@
 <style type="text/css">
 <!--
 .right {
-	text-align: right;
+	float: right;
 	padding-right: 32px;
-	padding-bottom: 32px;
+}
+.clear {
+        clear: right;
 }
 -->

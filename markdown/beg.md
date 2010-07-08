@@ -78,8 +78,10 @@ Haskell のインタープリターとしては、ghci の利用を仮定しま�
 <style type="text/css">
 <!--
 .right {
-	text-align: right;
+	float: right;
 	padding-right: 32px;
-	padding-bottom: 32px;
+}
+.clear {
+        clear: right;
 }
 -->
