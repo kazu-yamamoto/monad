@@ -79,6 +79,6 @@ Haskell のインタープリターとしては、ghci の利用を仮定しま�
 <!--
 .right {
 	text-align: right;
-	padding-right: 16px;
+	padding-right: 32px;
 }
 -->

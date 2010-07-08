@@ -7,6 +7,6 @@
 <!--
 .right {
 	text-align: right;
-	padding-right: 16px;
+	padding-right: 32qpx;
 }
 -->
