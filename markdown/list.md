@@ -1,9 +1,10 @@
 # リスト
 
-<div class="right">
+<p><div class="right">
 「見方によっては関数プログラミングはリスト処理と同義である」<br /> Jeremy Gibbons<br /> 関数プログラミングの楽しみ
 
 </div>
+</p>
 
 この章では、リストに関する基本的な関数 map、(++)、concat、および concatMap を復習します。なぜこれらの関数を復習するかというと、map と concatMap は Monad を理解するために重要であり、(++) と concat は concatMap を定義するために必要だからです。
 

@@ -1,9 +1,10 @@
 # モナド遊び
 
-<div class="right">
+<p><div class="right">
 山本和彦
 
 </div>
+</p>
 
 これは、Haskell の難関といわれるモナドの包括的な解説書であり、出版することを目指し書き進めています。コメント、質問、議論を歓迎します。それらすべては、[github の Issues](http://github.com/kazu-yamamoto/monad/issues) にお願いします。
 
